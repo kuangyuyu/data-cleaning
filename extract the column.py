@@ -22,6 +22,6 @@ def test(src, dst, index):
                 writer.writerow(column)  
 
   
-  
+  #the first csv is the original read file,and the second csv is the last written saved file.
 if __name__ == "__main__":  
       test('s_finditemsbystores.csv', 'test.csv', 0)  
